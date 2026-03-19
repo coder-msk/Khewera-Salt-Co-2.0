@@ -12,35 +12,35 @@ const galleryItems = [
     category: "Raw Material · Chunks · Crystals",
     description:
       "Large Himalayan pink salt rocks and crystals in their purest, unrefined form. Sourced directly from Khewra, these raw chunks showcase the authentic pink and amber mineral tones.",
-    image: "/images/Rock Salt (Raw Material).png",
+    image: `${import.meta.env.BASE_URL}images/Rock Salt (Raw Material).png`,
   },
   {
     title: "Ground Salt",
     category: "Processed · Fine · Coarse",
     description:
       "Premium processed Himalayan salt available in fine powder, medium grain, and coarse crystals. Clean, minimally processed, and ready for food-grade and commercial applications.",
-    image: "/images/Ground Salt (Processed).png",
+    image: `${import.meta.env.BASE_URL}images/Ground Salt (Processed).png`,
   },
   {
     title: "Lamps & Handicrafts",
     category: "Décor · Carbed Blocks · Bowls",
     description:
       "Handcrafted glowing salt lamps, carved candle holders, and decorative bowls. Each piece emits a warm amber light, creating a luxurious aesthetic for homes and wellness centers.",
-    image: "/images/Salt Lamps & Handicrafts.png",
+    image: `${import.meta.env.BASE_URL}images/Salt Lamps & Handicrafts.png`,
   },
   {
     title: "Animal Salt Licks",
     category: "Livestock · Natural Minerals",
     description:
       "Pure mineral salt lick blocks for livestock and agriculture. Available in cylindrical and rectangular shapes, rich with natural veins and essential trace elements.",
-    image: "/images/Animal Salt Licks.png",
+    image: `${import.meta.env.BASE_URL}images/Animal Salt Licks.png`,
   },
   {
     title: "Bulk Export Packaging",
     category: "Industrial · FIBC Bags · Pallets",
     description:
       "Export-ready bulk packaging in large industrial FIBC jumbo bags securely stacked on pallets. We offer scalable logistics solutions for global B2B shipments.",
-    image: "/images/Bulk Export Packaging.png",
+    image: `${import.meta.env.BASE_URL}images/Bulk Export Packaging.png`,
   },
 ];
 
