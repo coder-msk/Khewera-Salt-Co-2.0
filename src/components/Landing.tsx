@@ -45,7 +45,7 @@ const Landing = () => {
   return (
     <div className="landing-section" id="landingDiv" ref={heroRef}>
       <div className="hero-bg">
-        <img src="/images/salt-hero.png" alt="Himalayan Salt" className="hero-bg-img" />
+        <img src={`${import.meta.env.BASE_URL}images/salt-hero.png`} alt="Himalayan Salt" className="hero-bg-img" />
         <div className="hero-overlay"></div>
       </div>
       <div className="landing-container">

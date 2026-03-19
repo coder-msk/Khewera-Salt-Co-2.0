@@ -59,7 +59,7 @@ const Navbar = () => {
     <>
       <div className="header">
         <a href="/#" className="navbar-title" data-cursor="disable">
-          <img src="/images/salt-logo.png" alt="Khewra Salt Co." className="navbar-logo" />
+          <img src={`${import.meta.env.BASE_URL}images/salt-logo.png`} alt="Khewra Salt Co." className="navbar-logo" />
           <span className="navbar-brand">KHEWRA SALT CO.</span>
         </a>
         <ul>

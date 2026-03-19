@@ -119,7 +119,7 @@ const About = () => {
         </div>
         <div className="about-right">
           <div className="about-image-wrapper">
-            <img src="/images/salt-mine.png" alt="Khewra Salt Mine" className="about-image" />
+            <img src={`${import.meta.env.BASE_URL}images/salt-mine.png`} alt="Khewra Salt Mine" className="about-image" />
           </div>
           <div className="about-stats">
             <div className="about-stat">

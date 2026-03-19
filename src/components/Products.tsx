@@ -95,7 +95,7 @@ const Products = () => {
           ref={(el) => setRef(el, 0)}
         >
           <div className="product-image-wrapper">
-            <img src="/images/salt-products.png" alt="Himalayan Salt Types" />
+            <img src={`${import.meta.env.BASE_URL}images/salt-products.png`} alt="Himalayan Salt Types" />
           </div>
           <div className="product-content">
             <span className="product-number">01</span>
@@ -124,7 +124,7 @@ const Products = () => {
           ref={(el) => setRef(el, 1)}
         >
           <div className="product-image-wrapper">
-            <img src="/images/salt-handicrafts.png" alt="Salt Handicrafts & Lamps" />
+            <img src={`${import.meta.env.BASE_URL}images/salt-handicrafts.png`} alt="Salt Handicrafts & Lamps" />
           </div>
           <div className="product-content">
             <span className="product-number">02</span>
@@ -151,7 +151,7 @@ const Products = () => {
           ref={(el) => setRef(el, 2)}
         >
           <div className="product-image-wrapper">
-            <img src="/images/salt-animal-lick.png" alt="Animal Salt Lick" />
+            <img src={`${import.meta.env.BASE_URL}images/salt-animal-lick.png`} alt="Animal Salt Lick" />
           </div>
           <div className="product-content">
             <span className="product-number">03</span>
