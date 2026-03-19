@@ -3,6 +3,6 @@ import react from "@vitejs/plugin-react";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/Khewera-Salt-Co/',
+  base: '/Khewera-Salt-Co-2.0/',
   plugins: [react()],
 });
